@@ -14,7 +14,9 @@ Given that 'ontology.owl' and 'data.xml' directories are known:
 2. Importing the data to transform.
 3. Getting the desired elements from the data.xml.
 4. Looping through the elements and transforming them.
-5. Outputting the transformed data to console or file::
+5. Outputting the transformed data to console or file.
+
+Example Code::
 
 	a = Annotation()
 	a.importOntology("ontology.owl", "ontologyPrefix")
