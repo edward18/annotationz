@@ -11,7 +11,7 @@ Getting Started
 Given that 'ontology.owl' and 'data.xml' directories are known:
 
 
-```
+```python
 a = Annotation()
 a.importOntology("ontology.owl", "ontologyPrefix")
 a.importData("data.xml")
