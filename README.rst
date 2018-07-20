@@ -8,10 +8,8 @@ Additionally it is desired for the tool to be generic.
 
 Getting Started
 ---------------
-Given that 'ontology.owl' and 'data.xml' directories are known:
+Given that 'ontology.owl' and 'data.xml' directories are known::
 
-
-```python
 a = Annotation()
 a.importOntology("ontology.owl", "ontologyPrefix")
 a.importData("data.xml")
@@ -21,4 +19,3 @@ for element in elements:
 	a.annotate(element)
 
 a.output()
-```
